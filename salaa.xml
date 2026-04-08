@@ -4,8 +4,9 @@
   <remote name="dt" fetch="https://github.com/StimLuks87/" revision="16" />
   <remote name="core" fetch="https://github.com/StimLuks87/" revision="16QPR2" />
   <remote name="ims" fetch="https://github.com/StimLuks87/" revision="sixteen-oem" />
-  <remote name="device" fetch="https://github.com/StimLuks87/" revision="evo-x_bq2" />
+  <remote name="device" fetch="https://github.com/StimLuks87/" revision="infinity-x_16" />
   <remote name="sepolicy" fetch="https://github.com/StimLuks87/" revision="lineage-23.2" />
+  <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="16-F18" />
 
   <!-- Device -->
   <project path="device/realme/salaa" name="android_device_realme_salaa" remote="device" />
@@ -20,7 +21,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="sepolicy" />
 
   <!-- Vendor -->
-  <project path="vendor/realme/salaa" name="vendor_realme_salaa_F11" remote="dt" />
+  <project path="vendor/realme/salaa" name="vendor_realme_salaa" remote="vendor" />
 
   <!-- Kernel -->
   <project path="kernel/realme/mt6785" name="android_kernel_realme_salaa" remote="core" />
@@ -29,7 +30,7 @@
   <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="ims" />
 
   <!-- ViperFX -->
-  <project path="packages/apps/ViperFX" name="packages_apps_viperfx" remote="dt" />
+  <project path="packages/apps/viper4android" name="packages_apps_viper4android" remote="dt" />
 
   <!-- JamesDSP -->
   <project path="packages/apps/JamesDSPManager" name="packages_apps_JamesDSPManager" remote="dt" />
