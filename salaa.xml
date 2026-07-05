@@ -6,8 +6,9 @@
   <remote name="ims" fetch="https://github.com/StimLuks87/" revision="sixteen-oem" />
   <remote name="device" fetch="https://github.com/StimLuks87/" revision="infinity-x_16qpr2" />
   <remote name="sepolicy" fetch="https://github.com/StimLuks87/" revision="lineage-23.2" />
-  <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="16-F18" />
+  <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="16-F19" />
   <remote name="hw" fetch="https://github.com/StimLuks87/" revision="bka" />
+  <remote name="keys" fetch="https://github.com/StimLuks87/" revision="main" />
 
   <!-- Device -->
   <project path="device/realme/salaa" name="device_realme_salaa" remote="device" />
@@ -19,7 +20,7 @@
   <project path="hardware/mediatek-thermal" name="android_hardware_mediatek_thermal" remote="dt" />
   
   <!-- SEPolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="sepolicy" />
+  <project path="device/mediatek/sepolicy_vndr" name="mtk_sepolicy_vndr" remote="sepolicy" />
 
   <!-- Vendor -->
   <project path="vendor/realme/salaa" name="vendor_realme_salaa" remote="vendor" />
@@ -36,6 +37,9 @@
   <!-- JamesDSP -->
   <project path="packages/apps/JamesDSPManager" name="packages_apps_JamesDSPManager" remote="dt" />
 
+  <!-- PriveKeys -->
+  <project path="vendor/infinity-priv/keys" name="android_release_keys_16" remote="keys" />
+  
   <!-- Dolby -->
   <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" />
 </manifest>
