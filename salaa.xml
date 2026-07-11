@@ -14,7 +14,7 @@
   <project path="device/realme/salaa" name="device_realme_salaa" remote="device" />
 
   <!-- Hardware -->
-  <project path="hardware/mediatek_16" name="hardware_mediatek" remote="hw" />
+  <project path="hardware/mediatek" name="hardware_mediatek_16" remote="hw" />
   <project path="hardware/oplus" name="android_hardware_oplus" remote="dt" />
   <!--project path="hardware/mediatek-gnss" name="android_hardware_mediatek_gnss" remote="dt" />-->
   <project path="hardware/mediatek-thermal" name="android_hardware_mediatek_thermal" remote="dt" />
@@ -37,9 +37,6 @@
   <!-- JamesDSP -->
   <project path="packages/apps/JamesDSPManager" name="packages_apps_JamesDSPManager" remote="dt" />
 
-  <!-- PriveKeys -->
-  <project path="vendor/infinity-priv/keys" name="android_release_keys_16" remote="keys" />
-  
   <!-- Dolby -->
   <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" />
 </manifest>
