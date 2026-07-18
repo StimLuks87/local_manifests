@@ -8,7 +8,7 @@
   <remote name="sepolicy" fetch="https://github.com/StimLuks87/" revision="lineage-23.2" />
   <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="16-F19" />
   <remote name="hw" fetch="https://github.com/StimLuks87/" revision="bka" />
-  <remote name="keys" fetch="https://github.com/StimLuks87/" revision="infinity_16.2" />
+  <remote name="keys" fetch="https://github.com/StimLuks87/" revision="lineage_23.2" />
 
   <!-- Device -->
   <project path="device/realme/salaa" name="device_realme_salaa" remote="device" />
@@ -41,5 +41,5 @@
   <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" />
 
   <!-- Keys -->
-  <project path="vendor/infinity-priv/keys" name="android_release_keys_16" remote="keys" />
+  <project path="vendor/lineage-priv/keys" name="android_release_keys_16" remote="keys" />
 </manifest>
