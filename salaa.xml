@@ -9,37 +9,42 @@
   <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="16-F19" />
   <remote name="hw" fetch="https://github.com/StimLuks87/" revision="bka" />
   <remote name="keys" fetch="https://github.com/StimLuks87/" revision="infinity_16.2" />
-
+  <remote name="clang" fetch="https://gitlab.com/kei-space/" revision="master" />
+  
   <!-- Device -->
-  <project path="device/realme/salaa" name="device_realme_salaa" remote="device" />
+  <project path="device/realme/salaa" name="device_realme_salaa" remote="device" clone-depth="1" />
 
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="hardware_mediatek_16" remote="hw" />
-  <project path="hardware/oplus" name="android_hardware_oplus" remote="dt" />
+  <project path="hardware/mediatek" name="hardware_mediatek_16" remote="hw" clone-depth="1" />
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="dt" clone-depth="1" />
   <!--project path="hardware/mediatek-gnss" name="android_hardware_mediatek_gnss" remote="dt" />-->
-  <project path="hardware/mediatek-thermal" name="android_hardware_mediatek_thermal" remote="dt" />
+  <project path="hardware/mediatek-thermal" name="android_hardware_mediatek_thermal" remote="dt" clone-depth="1" />
   
   <!-- SEPolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="mtk_sepolicy_vndr" remote="sepolicy" />
+  <project path="device/mediatek/sepolicy_vndr" name="mtk_sepolicy_vndr" remote="sepolicy" clone-depth="1" />
 
   <!-- Vendor -->
-  <project path="vendor/realme/salaa" name="vendor_realme_salaa" remote="vendor" />
+  <project path="vendor/realme/salaa" name="vendor_realme_salaa" remote="vendor" clone-depth="1" />
 
   <!-- Kernel -->
-  <project path="kernel/realme/mt6785" name="android_kernel_realme_salaa" remote="core" />
+  <project path="kernel/realme/mt6785" name="android_kernel_realme_salaa" remote="core" clone-depth="1" />
 
   <!-- Ims -->
-  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="ims" />
+  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="ims" clone-depth="1" />
 
   <!-- ViperFX -->
-  <project path="packages/apps/Viper4android" name="packages_apps_viper4android" remote="dt" />
+  <project path="packages/apps/Viper4android" name="packages_apps_viper4android" remote="dt" clone-depth="1" />
 
   <!-- JamesDSP -->
-  <project path="packages/apps/JamesDSPManager" name="packages_apps_JamesDSPManager" remote="dt" />
+  <project path="packages/apps/JamesDSPManager" name="packages_apps_JamesDSPManager" remote="dt" clone-depth="1" />
 
   <!-- Dolby -->
-  <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" />
+  <project path="hardware/dolby" name="android_hardware_dolby" remote="dolby" clone-depth="1" />
 
   <!-- Keys -->
-  <project path="vendor/infinity-priv/keys" name="android_release_keys_16" remote="keys" />
+  <project path="vendor/infinity-priv/keys" name="android_release_keys_16" remote="keys" clone-depth="1" />
+
+    <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r522817" name="clang_r522817" remote="clang" clone-depth="1" />
+  
 </manifest>
