@@ -12,7 +12,7 @@
   <remote name="clang" fetch="https://gitlab.com/kei-space/" revision="master" />
   
   <!-- Device -->
- <!--project path="device/realme/salaa" name="device_realme_salaa" remote="device" clone-depth="1" />-->
+  <project path="device/realme/salaa" name="device_realme_salaa" remote="device" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="hardware_mediatek_16" remote="hw" clone-depth="1" />
