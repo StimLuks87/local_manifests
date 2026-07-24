@@ -44,7 +44,4 @@
   <!-- Keys -->
   <!--<project path="vendor/infinity-priv/keys" name="android_release_keys_16" remote="keys" clone-depth="1" />-->
 
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r522817" name="clang_r522817" remote="clang" clone-depth="1" />
-  
 </manifest>
