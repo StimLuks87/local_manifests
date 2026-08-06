@@ -4,7 +4,7 @@
   <remote name="dt" fetch="https://github.com/StimLuks87/" revision="16" />
   <remote name="core" fetch="https://github.com/StimLuks87/" revision="16QPR2" />
   <remote name="ims" fetch="https://github.com/StimLuks87/" revision="sixteen-oem" />
-  <remote name="device" fetch="https://github.com/StimLuks87/" revision="evo-x_bka" />
+  <remote name="device" fetch="https://github.com/StimLuks87/" revision="infinity-x_16" />
   <remote name="sepolicy" fetch="https://github.com/StimLuks87/" revision="lineage-23.2" />
   <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="16-F19" />
   <remote name="hw" fetch="https://github.com/StimLuks87/" revision="bka" />
