@@ -6,7 +6,7 @@
   <remote name="ims" fetch="https://github.com/StimLuks87/" revision="sixteen-oem" />
   <remote name="device" fetch="https://github.com/StimLuks87/" revision="infinity-x_16" />
   <remote name="sepolicy" fetch="https://github.com/StimLuks87/" revision="lineage-23.2" />
-  <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="16-F19" />
+  <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="F19_64" />
   <remote name="hw" fetch="https://github.com/StimLuks87/" revision="bka" />
   <remote name="keys" fetch="https://github.com/StimLuks87/" revision="infinity_16.2" />
   <remote name="viper" fetch="https://github.com/StimLuks87/" revision="16" />
