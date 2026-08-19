@@ -4,7 +4,7 @@
   <remote name="dt" fetch="https://github.com/StimLuks87/" revision="16" />
   <remote name="core" fetch="https://github.com/StimLuks87/" revision="16QPR2" />
   <remote name="ims" fetch="https://github.com/StimLuks87/" revision="sixteen-oem" />
-  <remote name="device" fetch="https://github.com/StimLuks87/" revision="infinity-x_16" />
+  <remote name="device" fetch="https://github.com/StimLuks87/" revision="16.2" />
   <remote name="sepolicy" fetch="https://github.com/StimLuks87/" revision="lineage-23.2" />
   <remote name="vendor" fetch="https://github.com/StimLuks87/" revision="16-F19" />
   <remote name="hw" fetch="https://github.com/StimLuks87/" revision="bka" />
@@ -12,7 +12,7 @@
   <remote name="viper" fetch="https://github.com/StimLuks87/" revision="16" />
   
   <!-- Device -->
-  <project path="device/realme/salaa" name="device_realme_salaa" remote="device" clone-depth="1" />
+  <project path="device/realme/salaa" name="infinity_device_realme_salaa" remote="device" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="hardware_mediatek_16" remote="hw" clone-depth="1" />
