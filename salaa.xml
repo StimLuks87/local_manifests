@@ -2,7 +2,7 @@
 <manifest>
   <remote name="dolby" fetch="https://github.com/StimLuks87/" revision="sony-1.3" />
   <remote name="dt" fetch="https://github.com/StimLuks87/" revision="16" />
-  <remote name="core" fetch="https://github.com/StimLuks87/" revision="16QPR2" />
+  <remote name="core" fetch="https://github.com/StimLuks87/" revision="16QPR2-EROFS" />
   <remote name="ims" fetch="https://github.com/StimLuks87/" revision="sixteen-oem" />
   <remote name="device" fetch="https://github.com/StimLuks87/" revision="16.2" />
   <remote name="sepolicy" fetch="https://github.com/StimLuks87/" revision="lineage-23.2" />
